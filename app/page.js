@@ -1,14 +1,31 @@
 "use client"
 import "./globals.css";
-import Data from "./Data.js";
+import Box from "./Box.js";
+/**import ButtonBox from "./Button_box.js";**/
 
-const App=()=>{
+const App=({ handleButtonClick })=>{
 
 	return (
-	
-		<Data/>
+		
+			<Box/>
+			/**<ButtonBox handleButtonClick={handleButtonClick} />**/
+		
 	
 	)
 }
 
 export default App;
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

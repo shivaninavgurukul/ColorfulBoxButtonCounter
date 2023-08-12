@@ -2,28 +2,27 @@ body{
 	background-color:black;
 	
 }
-.color{
-	color:white;
-	font-size:50px;
-	margin-left:440px;
-}
+
 
 .box1{
-	height:800px;
+	height:500px;
 	width:1000px;
 	border:2px solid white;
-		
+	margin-left:440px;	
 }
 
 .box2{
-	height:800px;
+	height:600px;
 	width:1000px;
-	border:2px solid white;		
+	border:2px solid white;	
+	/**margin-left:440px;**/
+	margin-top:60px;
+		
 }
 
 
 .box1_col1{
-	height:300px;
+	height:200px;
 	width:500px;
 	border:2px solid white;	
 	margin-left:250px;
@@ -32,54 +31,58 @@ body{
 }
 
 .box2_col1{
-	height:400px;
+	height:300px;
 	width:1000px;
 	border:1px solid white;
 }
 
 .box2_col1_col{
-	height:400px;
+	height:300px;
 	width:495px;
 	border:2px solid red;
 	display:inline-block;
+	color:white;
+	font-size:25px;
 }
-.box2_col1_col{
-	height:400px;
-	width:495px;
-	border:2px solid red;
-	display:inline-block;
-}
+
 
 .box2_col2{
-	height:400px;
+	height:300px;
 	width:1000px;
 	border:1px solid white;
 }
 
 .box2_col1_col2{
-	height:400px;
+	height:300px;
 	width:491px;
 	border:3px solid blue;
 	display:inline-block;
+	color:white;
+	font-size:25px;
+	
 }
-.box2_col1_col2{
-	height:400px;
-	width:491px;
-	border:3px solid blue;
-	display:inline-block;
-}
+
 
 .button{
 	font-size:30px;
-	margin-top:200px;
-	margin-left:220px;
+	margin-top:250px;
+	margin-left:100px;
 	text-align:center;
 }
 
+.count{
+	width:200px;
+	height:200px;
+	display:inline-block;
+	margin-left:250px;
+	color:white;
+	font-size:40px;
+	
+}
 
-
-
-
+.c{
+	margin-left:100px;;
+}
 
 
 
